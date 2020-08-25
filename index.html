@@ -5,6 +5,7 @@
 	<meta content="utf-8" http-equiv="encoding">
 	<script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
 	<style>
+	@media screen and (max-width: 460px) {
 	* {box-sizing: border-box;}
 	
 	.header {
@@ -43,7 +44,7 @@
 		float: right;
 	}
 
-	@media screen and (max-width: 460px) {
+	
 	
 		.header a {
 			float: none;
@@ -54,7 +55,7 @@
 		.header-right {
 			float: none;
 		}
-	}
+	
 	
 	.zoom {
 		transition: transform .2s;
@@ -71,6 +72,8 @@
 	
 	#txtcolor {
 	color: white;
+	}
+	
 	}
 	
 	</style>
